@@ -1,5 +1,5 @@
 new:
-	./new_day.sh
+	./scripts/new_day.sh
 
 build_day:
 	@read -p "Enter Day Number: " day; \
