@@ -1,0 +1,9 @@
+# Ignore CMake build directory
+/build/
+
+# Ignore test/build output
+/Testing/
+
+# Ignore any temporary files
+*~
+
