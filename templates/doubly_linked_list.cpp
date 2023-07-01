@@ -1,6 +1,6 @@
-template <typename T> class LinkedList {
+template <typename T> class DoublyLinkedList {
 public:
-  LinkedList() {}
+  DoublyLinkedList() {}
 
   void prepend(T item) {}
 
