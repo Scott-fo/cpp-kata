@@ -10,7 +10,7 @@ test:
 	read -p "Enter Day Number (default: latest): " day; \
 	if [ -z "$$day" ]; then \
 		day=`ls -d kata/Day* | sort -r | head -n 1 | cut -d'/' -f2`; \
-	elif [[ ! $$day =~ ^Day ]]; then \
+	else \
 		day=Day$$day; \
 	fi; \
 	cd build && ./$$day --gtest_filter=*$$test* && cd ..

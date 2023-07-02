@@ -1,5 +1,5 @@
-#ifndef TYPES_HH
-#define TYPES_HH
+#ifndef TYPES_H
+#define TYPES_H
 
 template <typename T> struct BinaryNode {
   T value;

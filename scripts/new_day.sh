@@ -12,7 +12,5 @@ fi
 
 mkdir -p kata/Day$num
 
-DS=("array_list" "linked_list" "binary_tree" "quick_sort" "bubble_sort")
-
-cp templates/*.cpp kata/Day$num/
+cp templates/*.* kata/Day$num/
 
