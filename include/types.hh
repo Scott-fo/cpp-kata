@@ -5,6 +5,8 @@ template <typename T> struct BinaryNode {
   T value;
   BinaryNode<T> *left;
   BinaryNode<T> *right;
+
+  BinaryNode(T val) : value(val), left(nullptr), right(nullptr) {}
 };
 
 struct Point {
