@@ -5,9 +5,12 @@
 
 template <typename T> class BinaryTree {
 public:
-  BinaryNode<T> *root;
-
   BinaryTree() { root = nullptr; }
+
+  void insert(T value);
+
+public:
+  BinaryNode<T> *root;
 };
 
 #endif
