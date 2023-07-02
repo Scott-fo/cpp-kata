@@ -1,3 +1,5 @@
 #include "types.hh"
+#include <vector>
 
-int *in_order(BinaryNode<int> head) {}
+using std::vector;
+vector<int> in_order(BinaryNode<int> *head) {}

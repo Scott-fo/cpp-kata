@@ -1,3 +1,7 @@
 #include "types.hh"
 
-int *pre_order(BinaryNode<int> head) {}
+#include <vector>
+
+using std::vector;
+
+vector<int> pre_order(BinaryNode<int> *head) {}

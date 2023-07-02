@@ -11,6 +11,8 @@ public:
   T *remove(T item) {}
   T *remove_at(int index) {}
 
+  T *get(int index) {}
+
 public:
   int length;
 };

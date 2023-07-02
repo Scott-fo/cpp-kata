@@ -10,5 +10,5 @@ public:
 
   void remove(string item) {}
 
-  string *find(string partial) {}
+  bool find(string word) {}
 };
