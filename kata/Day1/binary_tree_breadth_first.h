@@ -16,6 +16,7 @@ inline vector<int> breadth_first(BinaryNode<int> *head) {
   }
 
   queue.push(head);
+
   do {
     BinaryNode<int> *node = queue.front();
     queue.pop();
