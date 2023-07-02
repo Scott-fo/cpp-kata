@@ -3,6 +3,6 @@
 
 #include <vector>
 
-inline bool binary_search(int *haystack, int needle) {}
+inline bool binary_search(std::vector<int> haystack, int needle) {}
 
 #endif
