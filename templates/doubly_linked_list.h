@@ -11,10 +11,13 @@ public:
 
   void append(T item) {}
 
-  T *remove(T item) {}
-  T *remove_at(int index) {}
+  T remove_at(int index) {}
+  T remove(T item) {}
 
   T get(int index) {}
+
+private:
+  T *get_at(int index) {}
 
 public:
   int length;

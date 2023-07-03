@@ -9,7 +9,7 @@ TEST(DoublyLinkedListTest, AddAndRemoveTest) {
   EXPECT_EQ(list.get(0), 1);
   EXPECT_EQ(list.get(1), 2);
   EXPECT_EQ(list.get(2), 3);
-  list.remove(1);
+  list.remove_at(1);
   EXPECT_EQ(list.get(0), 1);
   EXPECT_EQ(list.get(1), 3);
 }
