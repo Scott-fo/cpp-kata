@@ -1,6 +1,7 @@
 #ifndef BUBBLE_SORT_H
 #define BUBBLE_SORT_H
 
-inline void bubble_sort(int *arr) {}
+#include <vector>
+inline void bubble_sort(std::vector<int> &arr) {}
 
 #endif
