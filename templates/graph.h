@@ -7,9 +7,9 @@ template <typename T> class Graph {
 public:
   Graph() {}
 
-  void addEdge(const T &a, const T &b) {}
+  void add_edge(const T &a, const T &b) {}
 
-  const std::vector<T> &getNeighbors(const T &node) const {}
+  const std::vector<T> &get_neighbours(const T &node) const {}
 };
 
 #endif

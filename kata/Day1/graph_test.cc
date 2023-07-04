@@ -5,14 +5,14 @@
 
 TEST(GraphTest, AddAndGetNeighbors) {
   Graph<std::string> g;
-  g.addEdge("A", "B");
-  g.addEdge("A", "C");
-  g.addEdge("B", "D");
+  g.add_edge("A", "B");
+  g.add_edge("A", "C");
+  g.add_edge("B", "D");
 
-  auto aNeighbors = g.getNeighbors("A");
-  auto bNeighbors = g.getNeighbors("B");
-  auto cNeighbors = g.getNeighbors("C");
-  auto dNeighbors = g.getNeighbors("D");
+  auto aNeighbors = g.get_neighbours("A");
+  auto bNeighbors = g.get_neighbours("B");
+  auto cNeighbors = g.get_neighbours("C");
+  auto dNeighbors = g.get_neighbours("D");
 
   // Ensure that A is connected to B and C
   ASSERT_EQ(aNeighbors.size(), 2);

@@ -4,12 +4,12 @@
 
 TEST(GraphTest, BFS) {
   Graph<std::string> g;
-  g.addEdge("A", "B");
-  g.addEdge("A", "C");
-  g.addEdge("B", "D");
-  g.addEdge("C", "D");
-  g.addEdge("C", "E");
-  g.addEdge("E", "F");
+  g.add_edge("A", "B");
+  g.add_edge("A", "C");
+  g.add_edge("B", "D");
+  g.add_edge("C", "D");
+  g.add_edge("C", "E");
+  g.add_edge("E", "F");
 
   auto bfsResult = bfs(g, "A");
 
