@@ -5,7 +5,7 @@
 
 #include <string>
 
-inline std::vector<std::string> bfs(Graph<std::string> haystack,
-                                    std::string needle) {}
+inline std::vector<std::string> bfs(Graph<std::string> &graph,
+                                    std::string &start_node) {}
 
 #endif

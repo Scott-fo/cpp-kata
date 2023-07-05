@@ -23,6 +23,8 @@ public:
     return iterator->second;
   }
 
+  int size() { return adj_list.size(); }
+
 private:
   std::unordered_map<T, std::vector<T>> adj_list;
 };
