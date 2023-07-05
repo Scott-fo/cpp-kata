@@ -6,7 +6,7 @@
 #include <string>
 #include <vector>
 
-inline std::vector<std::string> dfs(Graph<std::string> haystack,
-                                    std::string needle) {}
+inline std::vector<std::string> dfs(Graph<std::string> &graph,
+                                    const std::string &start_node) {}
 
 #endif
