@@ -17,7 +17,7 @@ public:
 
   int remove() {
     if (length == 0) {
-      return -1;
+      throw std::underflow_error("Heap is empty");
     }
 
     int out = data[0];
