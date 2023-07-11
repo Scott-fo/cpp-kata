@@ -86,6 +86,10 @@ public:
     return curr->value;
   }
 
+  Node<T> *get_head() { return head; }
+
+  void set_head(Node<T> *new_head) { head = new_head; }
+
 private:
   Node<T> *get_at(int index) {
     Node<T> *curr = head;
